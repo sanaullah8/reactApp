@@ -1,20 +1,13 @@
 import "./App.css";
+import Home from "./Home";
+import Navbar from "./Navbar";
 
 function App() {
-  const title = "Welcome to react course";
-  const likes = 50;
-  const link = "http://www.google.com";
-
   return (
     <div className="App">
+      <Navbar />
       <div className="content">
-        <h1>{title}</h1>
-        <p>Likes {likes} of this page</p>
-        <p>{"Hello"}</p>
-        <p>{100}</p>
-        <p>{[1, 2, 3, 4]}</p>
-        <p>{Math.random() * 10}</p>
-        <a href={link}>Google Site</a>
+        <Home />
       </div>
     </div>
   );
