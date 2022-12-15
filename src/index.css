@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 /* base styles */
+body {
+  background-color: #ebc6c6;
+}
 * {
   margin: 0;
   font-family: "Quicksand";
@@ -38,6 +41,7 @@
   border-bottom: 1px solid #fafafa;
 }
 .blog-preview:hover {
+  background-color: #fccdcd;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
 .blog-preview h2 {
